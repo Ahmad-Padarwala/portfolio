@@ -18067,6 +18067,16 @@ a.logo {
   position: relative;
 }
 
+.navbar a.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .navbar-brand img {
+  width: 50px;
+  height: auto;
+}
+
 .nav-fixed a.navbar-brand {
   color: #fff;
 }
